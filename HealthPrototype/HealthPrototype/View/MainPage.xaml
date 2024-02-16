@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HealthPrototype.MainPage">
 
-   <Grid>
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -11,10 +11,14 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Text="Total steps today: " + 
+        <Label Grid.Row="0" Text="Total steps today: " 
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Label Grid.Row="1" Text="Total meters walked today: " 
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Label Grid.Row="2" Text="Total exercise duration today: " 
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Label Grid.Row="3" Text="Total active calories burned today: " 
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
 
     </Grid>
-        
-
 </ContentPage>
-
