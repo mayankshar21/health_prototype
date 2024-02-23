@@ -11,14 +11,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Text="Total steps today: " 
-               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
-        <Label Grid.Row="1" Text="Total meters walked today: " 
-               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
-        <Label Grid.Row="2" Text="Total exercise duration today: " 
-               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
-        <Label Grid.Row="3" Text="Total active calories burned today: " 
-               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Button Text="Google" Clicked="OnLoginButtonClicked" BackgroundColor="#d34836" TextColor="White" />
 
     </Grid>
 </ContentPage>
